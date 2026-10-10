@@ -1,0 +1,22 @@
+/template/
+
+/Plan/
+
+# 密钥载体：被跟踪文件里不出现自持口令
+**/.env
+!**/.env.example
+**/application-local.yml
+**/application-prod.yml
+
+# 容器数据卷与构建产物
+deploy/data/
+target/
+*.log
+
+# IDE
+.idea/
+*.iml
+
+# 前端
+node_modules/
+dist/
