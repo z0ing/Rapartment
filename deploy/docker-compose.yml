@@ -30,7 +30,7 @@ services:
       retries: 10
 
   minio:
-    image: minio/minio:latest
+    image: pgsty/silo:latest
     container_name: rapartment-minio
     environment:
       MINIO_ROOT_USER: ${MINIO_ROOT_USER}
